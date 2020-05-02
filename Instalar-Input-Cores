@@ -1,0 +1,11 @@
+npm install ngx-color-picker --save
+
+import { ColorPickerModule } from 'ngx-color-picker';
+ 
+@NgModule({
+  ...
+  imports: [
+    ...
+    ColorPickerModule
+  ]
+})

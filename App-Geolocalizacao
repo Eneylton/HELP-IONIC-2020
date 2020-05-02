@@ -1,0 +1,29 @@
+$ ionic cordova plugin add cordova-plugin-geolocation --variable GEOLOCATION_USAGE_DESCRIPTION="To locate you"
+npm install --save @ionic-native/geolocation@4
+
+import { Geolocation } from '@ionic-native/geolocation';
+
+constructor(private geolocation: Geolocation) {}
+
+-2.5345377,-44.2090016
+-2.5446806,-44.2234799
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3OXh2oGrIVefC9Ss8SqYVp5rSGle3gRc&libraries=geometry,places">
+  </script>
+  
+
+https://maps.googleapis.com/maps/api/geocode/json?address=R.%2003,Cohatrac%20IV,MA&key=AIzaSyCq_CgXuRNxxwx6v7-1TDd7EXqIXI4p35g
+
+
+Evanildo
+AIzaSyCq_CgXuRNxxwx6v7-1TDd7EXqIXI4p35g
+
+Mâe
+AIzaSyA3OXh2oGrIVefC9Ss8SqYVp5rSGle3gRc
+
+Eneylton
+AIzaSyBhqoM5_qhLoQaKuZhHS9IKMPugLOXa5tA
+
+
+WWC
+AIzaSyB-rMHePnt1UKaMmW45WaghuT8NcXYWwgo

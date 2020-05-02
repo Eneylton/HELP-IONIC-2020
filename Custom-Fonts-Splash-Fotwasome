@@ -1,0 +1,48 @@
+FONTS
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+@font-face{
+    font-family: Buda;
+
+    src: url(../assets/fonts/Spartan-VariableFont_wght.ttf);
+}
+
+body, span, button,h1,h2,h3,h4,h5, ion-item, ion-title {
+
+    font-family: 'Buda' !important;
+
+}
+
+1. INSTALANDO O FONT AWESOME
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+npm install font-awesome --save
+
+PACKAGE.JSON
+
+"config": {    
+   "ionic_copy": "./config/copy.config.js",    
+   "ionic_sass": "./config/sass.config.js"  
+}, 
+
++++++++++++++++++++++++++++++++++++
+APP.SCSS
+
+$fa-font-path: "../assets/fonts" !default; 
+@import "font-awesome"; 
+i[class^="fa-"], ion-icon[class^="fa-"] {    
+   font-family: "FontAwesome" !important;
+}
+
+
+<button ion-button icon-only small color="danger">    
+    <ion-icon class="fa-address-book-o"></ion-icon>   
+</button> 
+
+HEADER TRANSPARENT
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+<ion-header no-border>
+  <ion-navbar transparent>
+    <ion-title>Meu App</ion-title>
+  </ion-navbar>
+</ion-header>
+
+

@@ -1,0 +1,13 @@
+npm install --save @ionic/storage
+npm install --save woocommerce-api
+npm install font-awesome --save --save-exact
+ionic cordova plugin add com.paypal.cordova.mobilesdk
+npm install --save @ionic-native/paypal@4
+ionic cordova platform add android --save
+
+PARA ATULALIZAR O INCONE - WELCOME
+
+ionic cordova resources
+
+
+

@@ -1,0 +1,13 @@
+$ ionic cordova plugin add cordova-plugin-camera
+$ npm install --save @ionic-native/camera@4
+
+import { Camera, CameraOptions } from '@ionic-native/camera';
+_________++++_+_+_++_+_+_+________+__+_+_+_+_+_+_+_______________
+
+$ ionic cordova plugin add cordova-instagram-plugin
+$ npm install --save @ionic-native/instagram@4
+
+import { Instagram } from '@ionic-native/instagram';
+
+constructor(private instagram: Instagram) { }
+

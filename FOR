@@ -1,0 +1,37 @@
+ for (let i = 0; i < data.result.length; i++) {
+             
+            if(data.result[i]["email"] == this.email){
+              validEmail = false;
+  
+              this.toastyCrtl.create({
+                message: "E-mail já registrado. por favor, verifique.",
+                showCloseButton: true
+              }).present();
+
+            }else{
+
+              validEmail = true;
+  
+              this.toastyCrtl.create({
+                message: "Parabéns. E-mail Válido.",
+                duration: 3000
+              }).present();
+            }
+        
+        }
+       
+  
+        })
+		
+		
+		
+		
+		
+		
+ this.serve.postData(body, '/Loja.php').subscribe(data => {
+            
+
+            var email = data.result.map(function (e) {
+              return e["email"];
+
+            });  	

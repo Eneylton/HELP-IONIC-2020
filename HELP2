@@ -1,0 +1,242 @@
+IP- 192.168.100.19
+
+CAMINHO IMAGEM
+www/assets/imgs/empresa.jpg:
+____________________________________________________________________________________
+
+ionic cordova platform add browser
+ionic cordova run browser
+_______________________________________-
+
+$ ionic cordova plugin add cordova-plugin-camera
+$ npm install --save @ionic-native/camera@4
+
+import { Camera, CameraOptions } from '@ionic-native/camera';
+
+constructor(private camera: Camera) { }
+
+
+SOCIAL SHARE____________________________________________________________________________________
+
+npm install @ionic-native/file
+
+$ ionic cordova plugin add cordova-plugin-x-socialsharing
+$ npm install --save @ionic-native/social-sharing@4
+
+import { SocialSharing } from '@ionic-native/social-sharing/ngx';
+import { File } from '@ionic-native/file/ngx';
+
+<preference name="AndroidPersistentFilelocation" value="Compatibility" />
+
+______________________________________________________________________________________
+
+npm i rxjs-pipe
+import { map } from 'rxjs/operators';
+_____________________________________
+
+Problema com HTTP_MODULE
+________________________________________________
+
+npm i @angular/http
+
+import { HttpModule } from '@angular/http';
+import { HttpClientModule } from '@angular/common/http';
+
+
+HttpModule,
+HttpClientModule,
+
+___________________________________________________________
+LOGIN STORAGE
+
+npm install --save @ionic/storage
+ 
+ ___________________________________________________________
+
+
+<IfModule mod_headers.c>
+  Header set Access-Control-Allow-Origin "*"
+</IfModule>
+
+if (!$con){
+      die("Error in connection" . mysqli_connect_error()) ;
+  }
+
+Basic dW1ibGVyOnRlc3RlaG9zcGVkYWdlbQ==
+
+http://eneylotnloja.epizy.com/Usuario/Insert-Usuarios.php?
+
+http://enecrud-com.umbler.net/Usuario/Insert-Usuarios.php
+http://192.168.100.19/Servidor-Aloproduto1.0
+
+msbarros2018@gmail.com
+testehospedagem
+
+header('Access-Control-Allow-Origin: *');
+header("Access-Control-Allow-Credentials: true");
+header("Access-Control-Allow-Methods: PUT, POST, OPTIONS");
+header("Access-Control-Allow-Headers: Authorization, Origin, X-Requested-With, Content-Type, Accept");
+header("Content-Type: text/html; charset=utf-8");
+___________________________________________________________
+
+
+C:\Android\sdk\tools
+
+C:\Android\sdk\tools\bin
+	
+C:\Android\sdk\platform-tools
+
+C:\Android\sdk\build-tools\23.0.3
+
+npm install --save @ionic-native/camera
+
+ionic cordova plugin add cordova-plugin-camera
+
+
+Usuario:Eneylton
+
+Senha:Ene@99167788
+
+INFINITYFREE: SENHA BANCO DE DADOS: Lv5E4PoSRGk
+
+RESOLVENDO O PROBLEMA DE CORS:
+
+1ª
+
+Cole esse trecho de código no arquivo ionic - ionic.config.json
+,
+  "proxies": [
+    {
+      "path": "/php",
+      "proxyUrl": "http://enecrud-com.umbler.net"
+    }
+  ]
+  
+ 2ª
+ 
+ 
+ basepath = "/php";
+ 
+
+  constructor(public http: Http, private platform: Platform) {
+    if(this.platform.is("cordova")){
+      this.basepath = "http://enecrud-com.umbler.net";
+    }
+  }
+ 
+ 
+ 
+ ____________________________________________________________________________________
+ 
+ 
+ if (isset($_SERVER['HTTP_ORIGIN'])) {
+    header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+    header('Access-Control-Allow-Credentials: true');
+    header('Access-Control-Max-Age: 86400'); 
+}
+
+
+if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_METHOD'])) {
+        header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
+    }
+    if (isset($_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS'])) {
+        header("Access-Control-Allow-Headers:        {$_SERVER['HTTP_ACCESS_CONTROL_REQUEST_HEADERS']}");
+    }
+    exit(0);
+
+}
+
+
+
+
+VITRINE
+
+<ion-grid>
+
+    <ion-row >
+      <ion-col col-6 *ngFor="let produto of produtos">
+        <div style="width: 330; height: 440;">
+
+          <img style="width: 330 !important; height: 440 !important;" src="{{url+produto.foto}}">
+        </div>
+      
+        
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+  
+  
+  
+  
+  MASCARA MOEDA PT_BR
+  __________________________________________________________________________________________
+  
+  
+import { LOCALE_ID } from  '@angular/core' ;
+import localePtBr from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+  
+  
+  
+  registerLocaleData(localePtBr);
+  
+  providers: [
+   
+    { provide: LOCALE_ID, useValue: 'pt' },
+   
+  ]
+  
+  ______________________________________________________________________________________________
+  
+  
+  
+  
+  
+  npm install brmasker-ionic-3 --save
+  
+  import { BrMaskerModule } from 'brmasker-ionic-3';
+ 
+@NgModule({
+  imports: [
+    BrMaskerModule
+  ],
+})
+ 
+ <ion-item>
+	<ion-input type="text" formControlName="mask" name="money" placeholder="Money" [brmasker]="{money: true, thousand: ',',  decimalCaracter: '.', decimal: '3'}"></ion-input> 
+</ion-item>
+
+<ion-item>
+	<ion-input type="text" name="phone" formControlName="mask" placeholder="Phone" [brmasker]="{phone: true}"></ion-input>
+</ion-item>
+
+<ion-item>
+	<ion-input type="text" name="cpf" formControlName="mask" placeholder="CPF/CNPJ" [brmasker]="{person: true}"></ion-input>
+</ion-item>
+  
+  
+  
+
+ img {
+        max-width: 205px !important;
+        border: 0;
+
+
+    }
+
+    .feed_post_photo {
+        height: 300px;
+        width: 200px;
+        margin-left: 50px;
+      }
+
+      .card-title-md {
+        display: block;
+        font-size: 2.4rem;
+        line-height: 0.2;
+        color: #580652;
+        margin: -2px 0;
+        padding: 12px 0;
+    }

@@ -1,0 +1,43 @@
+ion-input {
+    border: 5px !important;
+  }
+  
+  .text-input-ios, .text-input-md {
+      border-radius: 5px;
+      border: 1px solid #efefef;
+  }
+  
+  .text-input {
+      margin: 0;
+      width: calc(100% - 8px);
+      padding: 13px 8px;
+  }
+
+// .text-input-md {
+//     margin: 8px 8px;
+//     padding: 0;
+//     width: calc(100% - 8px - 8px);
+//     font-size: 13px;
+// }
+
+// .item-block {
+//     margin: -5px;
+// }
+
+
+
+
+ion-input {
+  border: 5px !important;
+}
+
+.text-input-ios, .text-input-md {
+    border-radius: 5px;
+    border: 1px solid #efefef;
+}
+
+.text-input {
+    margin: 0;
+    width: calc(100% - 8px);
+    padding: 13px 8px;
+}

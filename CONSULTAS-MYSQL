@@ -1,0 +1,18 @@
+SELECT sexo,
+
+CASE SEXO WHEN 'F' THEN
+
+COUNT(SEXO) END AS FEMININO,
+
+CASE SEXO WHEN 'M' THEN
+
+COUNT(SEXO) END AS MASCULINO
+
+FROM estatistica
+
+group by sexo
+
+
+________________________________
+
+SELECT sexo, count(*) FROM estatistica group by sexo

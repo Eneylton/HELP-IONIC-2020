@@ -1,0 +1,9 @@
+
+ionic cordova platform add android --save
+
+npm install -g cordova-res
+
+cordova-res android --skip-config --copy
+
+
+cordova-res ios --skip-config --copy

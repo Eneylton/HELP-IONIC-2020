@@ -1,0 +1,15 @@
+gith init
+
+gith-config --global user.name "eneylton"
+gith-config --global user.email "eneylton@hotmail.com"
+
+git status
+
+git add .
+
+git commit -m "Descricao do projeto"
+
+git log
+
+copy o repository do git
+git push -u origin master
